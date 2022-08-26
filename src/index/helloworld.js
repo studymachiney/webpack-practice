@@ -1,3 +1,7 @@
 export function helloworld() {
-    return 'Hello webpack';
+  return 'Hello webpack';
+}
+
+export function helloDad() {
+  return 'hello dad';
 }
