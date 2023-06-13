@@ -52,6 +52,7 @@ const cacheGroups = {
     priority: 1,
   },
 };
+/** @type {(env: { production?: boolean }, argv: {mode: string}) => import('webpack').Configuration} */
 module.exports = (env, argv) => ({
   entry,
   output: {
